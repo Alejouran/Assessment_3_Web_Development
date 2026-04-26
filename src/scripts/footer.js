@@ -3,7 +3,7 @@ document.addEventListener('click', function redirect(event) {
 
     switch(buttonClass) {
         case 'footer-home':
-            window.location.href = 'hero.html';
+            window.location.href = 'index.html';
             break;
         case 'footer-control':
             window.location.href = 'control-page.html'
@@ -22,7 +22,7 @@ document.addEventListener('click', function redirect(event) {
 });
 
 // Remove backgroundColor in 'hero' and 'sign-in' pages.
-const heroPage = '/src/assessment3/hero.html'  
+const heroPage = '/src/assessment3/index.html'  
 
 if (window.location.pathname === heroPage) {
     let footerHero = document.querySelector('footer').style

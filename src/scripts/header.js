@@ -17,7 +17,7 @@ document.addEventListener('click', function displayNormalPage(event) {
 });
 
 // Remove backgroundColor in 'hero' and 'sign-in' pages.
-const NoBackgroundHeaderPages = ['/src/assessment3/sign-in.html', '/src/assessment3/hero.html']  
+const NoBackgroundHeaderPages = ['/src/assessment3/sign-in.html', '/src/assessment3/index.html']  
 
 function transparentBackground(className) {
     document.querySelector(className).style.backgroundColor = 'transparent';
