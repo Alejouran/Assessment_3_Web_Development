@@ -1,0 +1,55 @@
+#about {
+    height: 100dvh;
+    width: 100dvw;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(217, 217, 217, 0.19);
+    z-index: -1;
+}
+
+#about-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.abt-title {
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 45px;
+}
+
+.abt-title > p {
+    font-size: 50px;
+}
+    
+.abt-cards-container {
+    height: 240px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr repeat(3, 200px) 1fr;
+    gap: 20px;
+}
+
+.abt-card {
+    background-color: white;
+    border: 0.5px solid rgba(0, 0, 0, 0.12);
+    border-radius: 13px;
+}
+
+.abt-card.references {
+    grid-column: 2 / 5;
+    padding: 24px 28px;
+    overflow-y: auto;
+}
+
+.references p {
+    margin: 0;
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+

@@ -1,0 +1,41 @@
+/* GENERAL.CSS */
+
+
+:root {
+    /* Font-size for titles and text */
+    /* Min and Max window's dimension/ */
+    --min-v: 20rem;
+    --max-v: 89.4rem;
+
+    /* Titles */
+    --min-title-size: 2rem;
+    --max-title-size: 3.5rem;
+    
+    /* Paragraphs */
+    --min-text-size: 1.1rem;
+    --max-text-size: 1.25rem;
+
+    /* Preferred value */
+    --preferred-title-v: clamp(2rem, calc( 2rem + (3.5 - 2) * ((100vw - 20rem)/(89.4 - 20))), 3.5rem);
+    --preferred-text-v: clamp(1.1rem, calc( 1.1rem + (1.25 - 1.1) * ((100vw - 20rem)/(89.4 - 20))), 1.25rem);
+
+    /* Margin top */
+    /* Min and Max margin's values */
+    --min-margin-v: 3rem;
+    --max-margin-v: 5rem;
+
+    --margin-top-title: clamp(3rem, calc( 3rem + (5 - 3) * ((100vw - 20rem)/(89.4 - 20))), 5rem);
+    --margin-bottom-text: clamp(2.1875rem, calc( 2.1875rem + (4.375 - 2.1875) * ((100vw - 20rem)/(89.4 - 20))), 4.375rem);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    font-size: 15px;
+}
+
+

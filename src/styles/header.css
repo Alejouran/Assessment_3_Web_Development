@@ -1,0 +1,122 @@
+header {
+    background-color: lightgray;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.nav-container {
+    width: 70%;
+    height: 60%;
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+
+.hero-header {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+}
+
+.menu {
+    flex: 1;
+    position: relative;
+}
+
+.hamb-icon {
+    height: 25px;
+    width: 25px;
+    object-fit: cover;
+    cursor: pointer;
+    background-color: none;
+}
+
+.hamb-icon-btn {
+    border: none;
+    background-color: transparent;
+}
+
+.header-dropdown {
+    background-color: white;
+    display: none;
+    box-sizing: border-box;
+    flex-direction: column;
+    position: absolute;
+    bottom: -80px;
+    left: 5px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+    padding: 5px;
+}
+
+header button {
+    font-family: instrument sans, arial; 
+    font-size: 10.5px;
+    border: none;
+    background-color: transparent;
+    color: rgb(56, 56, 56);
+}
+
+button div {
+    margin-left: 2px;
+}
+
+.links-container img {
+    height: 13px;
+    width: 13px;
+    object-fit: cover;
+    vertical-align: top;
+    margin-right: 6px;
+}
+
+.sign-in-icon {
+    height: 17px;
+    width: 17px;
+    object-fit: cover;
+    vertical-align: top;
+}
+
+.links-container {
+    border-radius: 4px;
+    padding-left: 8px;
+    padding-block: 6px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.links-container * {
+    pointer-events: none;
+}
+
+.links-container:hover {
+    background-color: rgb(225, 225, 225);
+}
+
+.logo {
+    height: 40px;
+    width: 60px;
+    object-fit: contain;
+    margin: 0px 20px;
+}
+
+.nav-bar {
+    height: 20px;
+    flex: 1;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-bar *:hover {
+    text-decoration: underline;
+}
