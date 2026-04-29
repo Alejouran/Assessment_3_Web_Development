@@ -19,7 +19,7 @@ footer {
     width: 100%;
     background-color: transparent;
     justify-content: center;
-    font-family: inter arial;
+    font-family: "inter, arial";
     align-items: center;
     box-sizing: border-box;
     padding-inline: 10px;

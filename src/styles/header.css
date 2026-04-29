@@ -37,7 +37,7 @@ header {
     width: 25px;
     object-fit: cover;
     cursor: pointer;
-    background-color: none;
+    background-color: transparent;
 }
 
 .hamb-icon-btn {
@@ -59,7 +59,7 @@ header {
 }
 
 header button {
-    font-family: instrument sans, arial; 
+    font-family: 'Instrument Sans'; 
     font-size: 10.5px;
     border: none;
     background-color: transparent;

@@ -19,11 +19,11 @@ body {
 }
 
 .sign-in {
-    margin-top: 10%;
+    margin-top: 150px;
     background-color: rgba(255, 255, 255, 0.1);
     display: flex;
-    width: 250px;
-    height: 250px;
+    width: clamp(200px, 50vw, 250px);
+    height: clamp(200px, 50vw, 250px);
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);;
     border-radius: 3px;
     padding: 30px;

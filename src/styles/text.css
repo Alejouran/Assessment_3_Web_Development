@@ -3,8 +3,7 @@
 /* Instrument Sans */
 
 .instrument-sans-semibold {
-  font-family: "Instrument Sans", sans-serif;
-  font-optical-sizing: auto;
+  font-family: 'Instrument Sans';
   font-weight: 600;
   font-style: normal;
   font-variation-settings: "wdth" 100;
@@ -13,33 +12,30 @@
 /* Inter */
 
 .inter-medium {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
+  font-family: 'Inter';
   font-weight: 450;
   font-style: normal;
 }
 
 .inter-normal {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
+  font-family: 'Inter';
   font-style: normal;
 }
 
 /* text */
 
 h1 {
-    font-family: instrument Sans, arial;
+    font-family: 'Instrument Sans', arial;
     font-size: 70px;
 }
 
 p {
-    font-family: inter, arial;
+    font-family: 'Inter', arial;
     font-size: 18px;
 }
 
 h2 {
-    font-family: inter, arial;
+    font-family: 'Inter', arial;
     font-size: 15px;
 }
 
