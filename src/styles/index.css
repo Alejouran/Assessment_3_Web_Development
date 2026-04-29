@@ -1,6 +1,6 @@
 
 .hero-container {
-    height: 800px;
+    height: 100dvh;
     width: 100%;
     position: relative;
 }
